@@ -68,10 +68,19 @@ body{
     font-weight: var(--fw-body-400);
     
 }
+picture{
+  position: absolute;
+  z-index: -1;
+}
 header{
-  background-color: var(--Very-Pale-Cyan);
+  /* background-color: var(--Very-Pale-Cyan); */
   padding: 1rem;
   margin-bottom: 1rem;
+  background-color: hsl(193, 100%, 96%);
+  opacity: 50%;
+  
+  
+  
 }
 nav{
   display: flex;
