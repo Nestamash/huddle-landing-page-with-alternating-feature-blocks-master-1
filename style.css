@@ -221,6 +221,9 @@ footer{
 .footer-artcle-links a:hover{
   color: var(--Pink);
 }
+.centered{
+  margin: 0 auto;
+}
 /* desktop layout styles */
 @media(min-width: 40em){
   .header-top{
